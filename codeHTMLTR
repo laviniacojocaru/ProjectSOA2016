@@ -1,0 +1,377 @@
+<p><strong>BoW </strong></p>
+<p><strong>(Botanical Gardens Web Applications)</strong></p>
+<p><strong>Technical Report</strong></p>
+<p>This document is designed to outline both the Application Scope and the Requirments for BoW v1.0. Project done by:</p>
+<ul>
+<li>Cojocaru Lavinia-Aurora</li>
+<li>Sandu Alexandra-Georgiana</li>
+</ul>
+<p>Revision History</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p>Author</p>
+</td>
+<td>
+<p>Revision no.</p>
+</td>
+<td>
+<p>Date</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Cojocaru Lavinia, Sandu Alexandra</p>
+</td>
+<td>
+<p>1.0</p>
+</td>
+<td>
+<p>22.11.2016</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>ABSTRACT</strong></p>
+<p>The BoW application is described as being a Web tool capable to manage information related to a botanical garden. The users - which can use the application both in anonymous mode or using a login via social networks - will be offered different means of consultation and data management for the exhibits. Some of the information provided could be: the popular/scientific name, the origin and the location on the territory, the main characteristics (such as: the addiction climate or soil), the manner of propagation (such as: seeds, seedling), identifying images available both locally or on other servers, period of cultivation, varieties or other related information.</p>
+<p><strong>SCOPE</strong></p>
+<p>The main target group of the BoW application consists in people of different ages who are eager to descover the wonders of nature. These users - which can be logged in or anonymously using the app - have the possibility to visualize and filter the content.</p>
+<p>For a better understanding of the application a series of use cases will ve presented in order to define in a better way the main <strong>scope </strong>of it.</p>
+<ol>
+<li>Sign up</li>
+<li>Sign in</li>
+<li>Recover password</li>
+<li>Set filter categories</li>
+<li>Visualize filter results</li>
+<li>Visualize the information for each of the exhibit</li>
+<li>Read the Floral Zodiac</li>
+<li>Search</li>
+<li>View search results</li>
+<li>Translate the content in different languages</li>
+<li>Zoom in / Zoom out the page content</li>
+</ol>
+<p><strong>OBJECTIVES</strong></p>
+<p>The main objectives of the entire BoW application are the following:</p>
+<ul>
+<li>To implement a web-based portal to efficiently present our exhibits</li>
+<li>To have the possibility to share user&rsquo;s data on social networks</li>
+</ul>
+<p><em>Usability </em>objectives:</p>
+<ul>
+<li>To have an attractive and user-friendly user interface</li>
+<li>To have an application whose content can be adaptive to all kind of users (users with different deficiencies, different ages users, different nationalities users)</li>
+</ul>
+<p><em>Capacity </em>objectives:</p>
+<ul>
+<li>An expected number of at least 10.000 users by the end of the year</li>
+<li>An expected number of at least 3.000 authorized users by the end of the year</li>
+</ul>
+<p><strong>BRANDING</strong></p>
+<p>The following image represents our logo:</p>
+<p>The image best represents the main idea of BoW application. </p>
+<p>In particular, this application incorporates the ambition to create an image of relaxation and a willingness to learn more about the environment that we are living in. Also the application desire is to direct its visitors into appreciating more the beauty of the nature, to protect it and also help it grow. It is also important to not forget that nature has a great impact on our inner senses.</p>
+<p><strong>ASSUMPTION</strong></p>
+<p>The essential assumptions related to BoW application are the following:</p>
+<ul>
+<li>The application will be free for all users</li>
+<li>Any user will have the access to the application through a web browser</li>
+<li>The application is a web-based one</li>
+<li>The administrator will be the one who will manage all the user rights and also the content of the application</li>
+</ul>
+<p><strong>LOGICAL REQUIRMENTS</strong></p>
+<p>In what comes next we are going to illustrate a series of diagrames which will create an overview of the use cases:</p>
+<p>Nonregistered users</p>
+<p>Registered users</p>
+<p>System </p>
+<p>The USE CASES are described below:</p>
+<p>. <em>View information on Home page</em></p>
+<ul>
+<li>Pre-conditions: the unregistered or registered person is on the Home page</li>
+<li>Post-conditions: all the articles are displayed</li>
+</ul>
+<ol>
+<li> View main information</li>
+<li> Translate the content in different language</li>
+<li> Zoom in/out the page content</li>
+<li> Visualize information from social media </li>
+</ol>
+<ul>
+<li> The user can read articles about flowers</li>
+</ul>
+<ul>
+<li> User select desired language</li>
+<li> The information are translated in language selected by user </li>
+</ul>
+<ul>
+<li> User can change the rezolution of page </li>
+</ul>
+<ul>
+<li> New pages with information and images can be explored in Facebook, Twitter, Pinterest and Instagram</li>
+<li> User can see on Youtube movies with botanical garden in different seasons</li>
+</ul>
+<p><em>View information on About us page</em></p>
+<ol>
+<li>View information regarding botanical garden</li>
+</ol>
+<p><em>. Read the Floral Zodiac</em></p>
+<p>There will be the ability for both users and system to get and post information</p>
+<ul>
+<li>Pre-condition: The user is logged in</li>
+<li>Post-condition: The required information is diplayed</li>
+</ul>
+<ol>
+<li> View information</li>
+</ol>
+<ul>
+<li> User select from a combobox date of birth</li>
+<li> The systemshould be able to post information for the date selected</li>
+<li> The user can see the information</li>
+</ul>
+<p><em>. View Contact information </em></p>
+<ul>
+<li>Pre-conditions: The user is on the contact page.</li>
+<li>Post-conditions: The contact information are displayed on the page</li>
+</ul>
+<p>There will be the ability of the user to look for information</p>
+<ol>
+<li> Visualize information on page</li>
+</ol>
+<ul>
+<li>View address </li>
+<li>View visiting hoursDaily</li>
+<li>View location on map or search for direction</li>
+</ul>
+<p><em>Login Page</em></p>
+<p>The login page gives the user the possibility to either <strong><em>sign in</em></strong> - in case the user already has an account - , to <strong><em>recover the password</em></strong> - in case an already registered user forgot its password- and to <strong><em>sign up</em></strong> - in case the user has no account but plans to create one.</p>
+<p>On this page, the user has the possibility to:</p>
+<ul>
+<li>Join using a social login</li>
+<li>Complete the form by :</li>
+<ul>
+<li>Typing the e-mail used for login</li>
+<li>Typing the password</li>
+</ul>
+</ul>
+<p>Another possibility that the user has is to login</p>
+<ul>
+<li>Using a social profile</li>
+<li>Using an already existing account by:</li>
+<ul>
+<li>Typing the e-mail used for login</li>
+<li>Typing the password</li>
+</ul>
+</ul>
+<p>Recover the password for an already existing user by:</p>
+<ul>
+<li>Typing the e-mail adress </li>
+</ul>
+<p>In this case the password will be sent on the email automaticaly by the user.</p>
+<p><em>Search function</em></p>
+<p>The user has the possibility to search for a specific word or phrase in all the content of BoW application. Also the results of the Search are generated by the system and are also displayed to the visitor.</p>
+<p><em>Filters on the application</em></p>
+<p>The list of exhibits can be filtered depending on the:</p>
+<ul>
+<li>the level on light needed</li>
+<li>the color depending on the Flower color and the Foliage color</li>
+<li>the plant type</li>
+<li>the main characteristics depending on Height and Season Bloom</li>
+<li>other special features</li>
+</ul>
+<p><strong>GENERAL REQUIRMENTS</strong></p>
+<p><strong><em>Usability:</em></strong></p>
+<p>One of the main objectives related to the usabilillity was to have an attractive and user-friendly user interface. This objective was tried to be accomplished by creating a very easy to understand behavior of the application so that any user, regardless of age or any other factor, to manage to understand and assimilate all the information provided by the application. Also, we tried to create pages that provide information as succint as possible and comprehensible to users.</p>
+<p><strong><em>Supported browsers:</em></strong></p>
+<ul>
+<li>Internet Explorer 7+</li>
+<li>Google Chrome 4+</li>
+<li>Mozzila Firefox 2+</li>
+</ul>
+<p><strong><em>Performance contraints:</em></strong></p>
+<ul>
+<li>The application can not support more that 1000 users at a time</li>
+</ul>
+<p><strong><em>Performance requirments:</em></strong></p>
+<ul>
+<li>The application will be available 24/7</li>
+<li>Content on the web app should be loaded in less than 5 sec</li>
+</ul>
+<p><strong><em>Security</em></strong></p>
+<p>The permissions will be assigned depending on the roles. In what comes next a list of the roles and permissions will be presented:</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p>Registered users</p>
+</td>
+<td>
+<p>Non registeres users</p>
+</td>
+<td>
+<p>Administrator</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Sign up</p>
+</td>
+<td>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+<p>x</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Sign in</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+</td>
+<td>
+<p>x</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Recover password</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+</td>
+<td>
+<p>x</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Set filter categories</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+<p>x</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>View filter results</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+<p>x</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>View exhibit information</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+<p>x</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Read Zodiac</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+<p>x</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Search</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+<p>x</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>View Search results</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+<p>x</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Translate content</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+<p>x</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Zoom in/out</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+<p>x</p>
+</td>
+<td>
+<p>x</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>PASSWORD RULLS</strong></p>
+<p>For security reasons, the passwords must meet the following criteria:</p>
+<ul>
+<li>Password may be a combination of ASCII characters</li>
+<li>Passwords must have between 10 and 22 characters</li>
+<li>Passwords will be key sensitive</li>
+</ul>
+<p><strong>REFERENCES</strong></p>
+<p><a href="http://www.hobo-web.co.uk/design-website-for-blind/"><strong>http://www.hobo-web.co.uk/design-website-for-blind/</strong></a></p>
+<p><a href="http://mashable.com/2014/04/22/website-disability-friendly/"><strong>http://mashable.com/2014/04/22/website-disability-friendly/</strong></a></p>
+<p><a href="https://technet.microsoft.com/en-us/library/cc786468(v=ws.10).aspx"><strong>https://technet.microsoft.com/en-us/library/cc786468(v=ws.10).aspx</strong></a></p>
