@@ -6,6 +6,7 @@ https://github.com/laviniacojocaru/ProjectSOA2016/wiki
  The technical report for part 2 is here:
  http://cssdeck.com/labs/akigoa0o
   
+  <pre class="_cssdeck_embed" data-pane="output" data-user="laviniacojocaru" data-href="akigoa0o" data-version="0"></pre><script async src="http://cssdeck.com/assets/js/embed.js"></script>
 
 #info
 Team members: 
